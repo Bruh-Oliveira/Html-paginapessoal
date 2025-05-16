@@ -1,55 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruh Oliveira</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header id="menu">
+        <h1 class="logo">Bruh Oliveira</h1>
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">O que gosto de fazer</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Bruh Oliveira</h1>
-    <h2><strong>Gestora de projetos</strong> e iniciante na programação</h2>
-</header>
+    <main>
+        <section id="sobre">
+            <img class="sobre-imagem" src="imagens/Foto-Bruna.jpeg" alt="Foto da Bruna de perfil, sorrindo" />
+            <h2 class="sobre-titulo">Sobre mim</h2>
+            <h3 class="sobre-subtitulo">Gestora de Projetos e Iniciante em Programação</h3>
+            <p class="sobre-descricao">
+                Tenho 32 anos, <em>nascida na Bahia</em>, mas criada em São Paulo, onde moro atualmente.<br>
+                Tenho dois cachorros, adoro arte e cultura.<br>
+                Minha frase favorita é: <em>“Sonhar absurdos e rir alto!”</em> É um chamado dos meus antepassados.
+            </p>
+        </section>
 
-<main>
-    <section>
-        <img src="Foto Bruna.jpeg" alt="Foto da Bruna de perfil, sorrindo" width="200" />
-        <h3>Eu tenho 32 anos, <em>nascida na Bahia</em>, mas criada em SP na qual resido atualmente.</h3>
-        <p>Eu tenho dois cachorros, adoro tudo relacionado a arte e cultura.</p>
-        <p>Minha frase favorita é: <em>Sonhar absurdos e rir alto!</em> É um chamado dos meus antepassados.</p>
-    </section>
+        <section id="formacao">
+            <h2 class="formacao-titulo">O que eu mais gosto de fazer?</h2>
+            <div class="formacao-lista">
+                <ul>
+                    <li>Gerir projetos</li>
+                    <li>Estudar programação e inteligência artificial</li>
+                    <li>Tocar instrumentos de percussão</li>
+                    <li>Assistir filmes e séries</li>
+                </ul>
+            </div>
+        </section>
 
-    <section>
-        <h2>O que eu mais gosto de fazer?</h2>
-        <ul>
-            <li>gerir projetos</li>
-            <li>estudar programação e inteligência artificial</li>
-            <li>tocar instrumentos de percussão</li>
-            <li>assistir filmes e séries</li>
-        </ul>
-    </section>
+        <section id="contato">
+            <h2 class="contato-titulo">Entre em contato comigo!</h2>
+            <form class="contato-formulario" action="#" method="post">
+                <div class="contato-grupoinput">
+                    <div class="contato-input">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
 
-    <section>
-        <h4>Entre em contato comigo!</h4>
-        <form action="#">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+                    <div class="contato-input">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                </div>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br>
+                <div class="contato-input">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="5" required></textarea>
+                </div>
 
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="5"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/bruna-oliveira-gois/" target="_blank">LinkedIn</a>
+    </footer>
 </main>
-
-<footer>
-    <a href="https://www.linkedin.com/in/bruna-oliveira-gois/" target="_blank">Link para o meu LinkedIn</a>
+<footer class="rodape">
+  <div class="rodape-contatos">
+    <p><img src="imagens/instagram-logo.png" alt="Logo do Instagram" /> <a
+        href="">@</a> </p>
+    <p><img src="imagens/github-logo.png" alt="Logo do Github" /> <a
+        href="https://github.com/Bruh-Oliveira">Bruh-Oliveira</a> </p>
+    <p><img src="imagens/linkedin-logo.png" alt="Logo do Linkedin" /> <a
+        href="www.linkedin.com/in/bruna-oliveira-gois">Bruna Oliveira </a> </p>
+  </div>
+  <div class="rodape-logo">
+    <a href="https://minasprogramam.com/"><img class="logo-minas" src="imagens/minasprogram-logo.png"
+        alt="Logo do Minas Programam" /></a>
+  </div>
 </footer>
-
 </body>
 </html>
-

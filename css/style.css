@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f2;
+  color: #333;
+}
+
+#menu {
+  background-color: #4b0082;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 15px;
+}
+
+.navegacao li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navegacao li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sobre-imagem {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.sobre-titulo, .formacao-titulo, .contato-titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4b0082;
+}
+
+.sobre-subtitulo {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.sobre-descricao {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.formacao-lista {
+  list-style: square;
+  text-align: left;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.formacao-lista li {
+  margin: 8px 0;
+  font-size: 17px;
+}
+
+.contato-formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contato-input {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4b0082;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #5e00a1;
+}
+
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.contato-formulario {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.contato-grupoinput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato-input {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.contato-input input {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.contato-input textarea {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contato-input label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.btn-enviar {
+  background-color: #938DF8;
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+.rodape {
+  background-color: #938DF8;
+  display: flex;
+  padding: 30px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodape-contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rodape-contatos a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.rodape-contatos img {
+  vertical-align: middle;
+}
+
+.logo-minas {
+  height: 80px;
+}
