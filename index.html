@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bruh Oliveira</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <header id="menu">
@@ -12,7 +12,8 @@
         <nav class="navegacao">
             <ul>
                 <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#formacao">O que gosto de fazer</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -31,13 +32,45 @@
         </section>
 
         <section id="formacao">
-            <h2 class="formacao-titulo">O que eu mais gosto de fazer?</h2>
-            <div class="formacao-lista">
+            <h2 class="formacao-titulo">Formação Acadêmica e Técnica</h2>
+            <ul class="formacao-lista">
+                <li><strong>Bacharelado em Arquitetura da Informação (Biblioteconomia)</strong><br>
+                    Universidade (jan de 2019 - 2022)
+                </li>
+                <li><strong>Pós-graduação Lato Sensu - MBA, Gestão de Projetos</strong><br>
+                    Descomplica (mai de 2023 - jul de 2024)
+                </li>
+                <li><strong>Estudos em Programação</strong><br>
+                    Minas Programam, Programaria e Alura
+                </li>
+            </ul>
+        </section>
+
+        <section id="experiencia">
+            <h2 class="experiencia-titulo">Experiência Profissional</h2>
+            
+            <div class="experiencia-item">
+                <h3>Grupo Bimbo · Analista de Projetos de Melhoria Contínua</h3>
+                <p><em>mar de 2025 - o momento · São Paulo, Brasil · Híbrida</em></p>
                 <ul>
-                    <li>Gerir projetos</li>
-                    <li>Estudar programação e inteligência artificial</li>
-                    <li>Tocar instrumentos de percussão</li>
-                    <li>Assistir filmes e séries</li>
+                    <li>Condução de projetos orientados a dados e ROI, usando metodologias como Scrum, Lean, PDCA, DMAIC e PFMEA.</li>
+                    <li>Estruturação de business cases e análise de KPIs para garantir retorno financeiro e alinhamento estratégico.</li>
+                    <li>Atuação transversal com times comerciais, vendas e operações, promovendo colaboração e entregas eficazes.</li>
+                    <li>Redesenho de processos com ferramentas digitais e relatórios executivos baseados em dados.</li>
+                    <li>Participação ativa em dailies, reviews e touchpoints com foco em melhoria contínua.</li>
+                </ul>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>Infracommerce · Especialista em Projetos</h3>
+                <p><em>mai de 2022 - dez de 2024 · São Paulo, Brasil</em></p>
+                <ul>
+                    <li>Gestão de projetos e produtos estratégicos com foco em backlog, roadmap e entrega de valor.</li>
+                    <li>Comunicação com clientes, equipes e stakeholders garantindo alinhamento e resultados.</li>
+                    <li>Mapeamento de processos, identificação de gaps e proposta de soluções operacionais.</li>
+                    <li>Atuação em e-commerce B2B e B2C com uso de metodologias ágeis e ferramentas como JIRA, Trello, Planner e Miro.</li>
+                    <li>Gestão de CX e Customer Success, monitoramento de NPS e melhorias na jornada do usuário.</li>
+                    <li>Participação em projetos de integração sistêmica e implementação tecnológica.</li>
                 </ul>
             </div>
         </section>
@@ -48,12 +81,12 @@
                 <div class="contato-grupoinput">
                     <div class="contato-input">
                         <label for="nome">Nome:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required />
                     </div>
 
                     <div class="contato-input">
                         <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required />
                     </div>
                 </div>
 
@@ -67,23 +100,23 @@
         </section>
     </main>
 
-    <footer>
-        <a href="https://www.linkedin.com/in/bruna-oliveira-gois/" target="_blank">LinkedIn</a>
+    <footer class="rodape">
+        <div class="rodape-contatos">
+
+            <p>
+                <img src="imagens/github-logo.png" alt="Logo do Github" />
+                <a href="https://github.com/Bruh-Oliveira" target="_blank">Bruh-Oliveira</a>
+            </p>
+            <p>
+                <img src="imagens/linkedin-logo.png" alt="Logo do Linkedin" />
+                <a href="https://www.linkedin.com/in/bruna-oliveira-gois" target="_blank">Bruna Oliveira</a>
+            </p>
+        </div>
+        <div class="rodape-logo">
+            <a href="https://minasprogramam.com/" target="_blank">
+                <img class="logo-minas" src="imagens/minasprogram-logo.png" alt="Logo do Minas Programam" />
+            </a>
+        </div>
     </footer>
-</main>
-<footer class="rodape">
-  <div class="rodape-contatos">
-    <p><img src="imagens/instagram-logo.png" alt="Logo do Instagram" /> <a
-        href="">@</a> </p>
-    <p><img src="imagens/github-logo.png" alt="Logo do Github" /> <a
-        href="https://github.com/Bruh-Oliveira">Bruh-Oliveira</a> </p>
-    <p><img src="imagens/linkedin-logo.png" alt="Logo do Linkedin" /> <a
-        href="www.linkedin.com/in/bruna-oliveira-gois">Bruna Oliveira </a> </p>
-  </div>
-  <div class="rodape-logo">
-    <a href="https://minasprogramam.com/"><img class="logo-minas" src="imagens/minasprogram-logo.png"
-        alt="Logo do Minas Programam" /></a>
-  </div>
-</footer>
 </body>
 </html>
